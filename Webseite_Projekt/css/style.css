@@ -1,0 +1,375 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 27px;
+    margin: 0 0 10px 0;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #b65423;
+}
+
+.main-header-container{
+    background: #fff;
+}
+
+
+.main-header,
+.intro,
+.intro.content,
+.columns,
+.slogan,
+.legal,
+.content-header, 
+.content,
+.gallery {
+    text-align: center;
+    max-width: 960px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.main-header .logo {
+    float: left;
+}
+
+.main-header nav {
+    float: right;
+    padding-top: 20px;
+}
+
+.main-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-header li {
+    float: left;
+}
+.main-header nav a {
+    display: block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 300;
+    color: #222;
+    border-bottom: 1px solid transparent;
+}
+
+.main-header nav a:hover,
+.main-header nav .current a {
+    border-color: #b65423;
+}
+
+.intro-container {
+    background: transparent url(../img/wächterin.jpg) bottom center no-repeat;
+    height: 550px;
+    background-size: cover;
+}
+
+.intro {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.intro h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.intro h1 span {
+    display: block;
+    font-size: 25px;
+}
+
+.intro-content-container {
+background: #f1ede4;
+padding: 40px 0;
+
+}
+
+.intro.content {
+padding-left: 0;
+padding-right: 0;
+}
+
+.main-header-container {
+    padding-right: 230px;;
+}
+
+
+.intro-text,
+.intro-aside {
+float: left;
+}
+
+.intro-text{
+    float: left;
+    width: 66.66%;
+}
+
+.intro-text p {
+    margin-top: 0;
+    
+}
+
+.intro-aside {
+    width: 33.33;
+}
+
+.intro-aside,
+.intro.aside p {
+    margin: 0;
+}
+
+.columns {
+    width: 960px;
+    padding: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.columns-container {
+
+    background:    #baad99;
+    padding: 0px 0;
+
+}
+
+
+.slogan-container {
+    background: #f1ede4;
+}
+
+.slogan p {
+    font-size: 20px;
+}
+
+.slogan p span{
+    display: block;
+    font-weight: 700;
+}
+
+.legal-container {
+    background: #2e2e2e;
+    color: #e3d8c6;
+}
+
+.legal-container a {
+    color: #e3d8c6;
+    font-weight: 700;
+}
+
+/* Arbeiten/ Galerie */
+
+.main-content-container {
+    background: #f1ede4;
+}
+
+.main-content-container h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content-header-container {
+    border-bottom: 1px solid #222;
+}
+
+.gallery-container {
+    background: #baad99;
+}
+
+.gallery article {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.gallery article a {
+    position: relative;
+    display: block;
+    color: #fff;
+}
+
+.gallery article a:hover .overlay {
+    /*display: block;*/
+    opacity: 1;
+    top: 0px;
+}
+
+.gallery article .overlay {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 120px;
+    /*display: none;*/
+    opacity: 0;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.gallery article img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/*Vita */
+
+.vita {
+    background: #2e2e2e;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.vita p {
+color: #fff;
+}
+
+/* Imressum */
+
+.Impressum {
+    text-align: left;
+    max-width: 960px;
+    text-align: right;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.Impressum p {
+    text-align: center;
+    max-width: 960px;
+    padding: 10px;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+
+/* Button */
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #b65423;
+}
+
+.button:hover {
+    background: #b65423;
+    color: #222;
+}
+
+.btn-dark {
+    border-color: #222;
+    color: #222;
+}
+
+.btn-dark:hover {
+    background: #222;
+    color:#b65423;
+}
+
+/* Clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both; 
+}
+
+
+
+/* Mediaqueries */
+
+@media screen and (max-width: 850px) {
+    .main-header .logo,
+    .main-header nav,
+    .main-header li {
+        float: none;
+    }
+
+    .main-header nav {
+        padding-top: 10px;
+    }
+
+    .main-header {
+        text-align: center;
+    }
+
+    .main-header li {
+        display: inline-block;
+    }
+    
+    .intro-text,
+    .intro-aside {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .intro-container  {
+        height: 300px;
+    }
+
+    .intro h1 {
+        font-size: 30px;
+    }
+
+    .intro h1 span {
+        font-size: 16px;
+    }
+
+    .columns article {
+        width: 100%;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+
+    .columns article:first-child {
+        margin: 0;
+        padding: 0;
+    }
+
+    .gallery article {
+        width: 100%;
+    }
+}
